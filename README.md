@@ -1,22 +1,27 @@
-# **RPi Zero 2W + ESP32 UART Communication**  
-A project demonstrating **bidirectional UART communication** between Raspberry Pi and ESP32.  
+# Raspberry Pi 2W ↔ ESP32 Communication Projects
 
-## **Features**  
-✅ Serial data exchange  
-✅ Python (RPi) + Arduino (ESP32)  
-✅ Easy debugging  
+This repository contains small projects demonstrating communication between Raspberry Pi 2W and ESP32 using various protocols like UART and I2C.
 
-## **Hardware Setup**  
-![Wiring Diagram](wiring.png)  
+## Goals
+- Send and receive data between RPi and ESP32
+- Display messages on OLED via ESP32
+- Control LEDs from RPi through ESP32
+- Explore other ideas like sensor data relay, camera integration, etc.
 
-## **Software Setup**  
-- [RPi Python Code](/rpi/rpi_uart.py)  
-- [ESP32 Arduino Code](/esp32/esp32_uart.ino)  
+## Protocols Used
+- UART
+- I2C (coming soon)
+- SPI (planned)
 
-## **How to Run**  
-1. Connect RPi & ESP32 via UART (see wiring diagram).  
-2. Upload `esp32_uart.ino` to ESP32.  
-3. Run `rpi_uart.py` on RPi.  
+## Projects
+| Project Name                | Protocol | Description                                 |
+|----------------------------|----------|---------------------------------------------|
+| UART Display on OLED       | UART     | Send message from RPi to ESP32, show on OLED |
+| I2C LED Control            | I2C      | Control LED on ESP32 from RPi               |
+| ...                        | ...      | ...                                         |
 
-## **License**  
-MIT License - Free to use & modify.  
+## Hardware Used
+- Raspberry Pi 2W
+- ESP32 (various models)
+- OLED Display (128x64 or 128x32)
+- Jumper Wires, Logic Level Converter (optional)
