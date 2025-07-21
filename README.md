@@ -22,6 +22,6 @@ This repository contains small projects demonstrating communication between Rasp
 
 ## Hardware Used
 - Raspberry Pi 2W
-- ESP32 (various models)
-- OLED Display (128x64 or 128x32)
-- Jumper Wires, Logic Level Converter (optional)
+- ESP32 DevKit
+- OLED Display (128x64)
+
