@@ -26,6 +26,12 @@ This project demonstrates UART communication between a Raspberry Pi and an ESP32
 
 > 📌 Make sure to cross TX ↔ RX and connect GNDs.
 
+## Setup
+- Flash ESP32 code using PlatformIO.
+- Connect wires as per the wiring table.
+- Run the Python script on the Raspberry Pi.
+- Messages typed on the Pi will appear on the OLED.
+
 ## ESP32 Arduino Code
 
 The ESP32 initializes Serial2 (custom UART) on GPIO4/5 and displays received messages on the OLED.
@@ -40,4 +46,5 @@ Install via PlatformIO:
 lib_deps =
   adafruit/Adafruit GFX Library@^1.12.1
   adafruit/Adafruit SSD1306@^2.5.15
+
 
