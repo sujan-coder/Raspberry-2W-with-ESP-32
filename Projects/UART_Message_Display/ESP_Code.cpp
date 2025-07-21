@@ -13,7 +13,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define TXD2 18
 
 void setup() {
-  Serial.begin(115200);          // For debug
+  Serial.begin(115200);         // For debug
   Serial2.begin(115200, SERIAL_8N1, RXD2, TXD2);  // UART to RPi
 
   if (!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
