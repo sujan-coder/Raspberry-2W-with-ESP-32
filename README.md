@@ -10,8 +10,7 @@ This repository contains small projects demonstrating communication between Rasp
 
 ## Protocols Used
 - UART
-- I2C (coming soon)
-- SPI (planned)
+
 
 ## Projects
 | Project Name                | Protocol | Description                                 |
