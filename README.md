@@ -17,7 +17,6 @@ This repository contains small projects demonstrating communication between Rasp
 |----------------------------|----------|---------------------------------------------|
 | UART Display on OLED       | UART     | Send message from RPi to ESP32, show on OLED |
 | I2C LED Control            | I2C      | Control LED on ESP32 from RPi               |
-| ...                        | ...      | ...                                         |
 
 ## Hardware Used
 - Raspberry Pi 2W
